@@ -1,0 +1,50 @@
+{
+  "name": "leapond-ns",
+  "version": "1.0.0",
+  "description": "Single `ns()` function to get/set value of deep Object",
+  "main": "dist/ns-bundle.cjs.js",
+  "module": "dist/ns-bundle.es.js",
+  "borwser": "dist/ns-bundle.iife.js",
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production",
+    "dev": "rollup -wc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leapond/js-ns.git"
+  },
+  "keywords": [
+    "ondemand",
+    "tiny",
+    "util",
+    "utilites",
+    "utility",
+    "leapond",
+    "javascript"
+  ],
+  "author": "Leapond, Inc. (https://www.leapond.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leapond/js-ns/issues"
+  },
+  "homepage": "https://github.com/leapond/js-ns#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jest": "^26.0.24",
+    "assert": "^2.0.0",
+    "jest": "^27.0.6",
+    "leapond-rollup-plugin-replace": "^1.0.0",
+    "rollup": "^2.54.0",
+    "rollup-plugin-serve": "^1.1.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!leapond)(.*)"
+    ]
+  },
+  "dependencies": {}
+}
