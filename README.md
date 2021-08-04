@@ -1,3 +1,7 @@
+# This project has been deprecated
+
+Moved to [@leapond/utilities](https://gitea.com/leapond/utilities)
+
 # Leapond ns()
 
 Single `ns()` function to get/set value of deep Object
